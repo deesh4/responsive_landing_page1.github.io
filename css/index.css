@@ -1,0 +1,73 @@
+/* CSS Document */
+.menu{
+        height:70px;
+	    display:table-header-group;
+		background-color:transparent;
+	    color:white;
+		font-size:20px;
+		transition:background-color 3s;
+	 }
+
+.menu:hover{
+	background-color:#003;
+}
+	 
+.menu ul{ 
+   list-style:none;
+   margin:0px;
+   padding:0px;
+   }
+   
+.menu ul li { 
+       display:inline-block;
+	   height:70px;
+	   padding-left:49px;
+	   padding-right:49px;
+	   line-height:60px;
+	   text-align:center;
+	   }
+	   
+.text-vertical-center{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.header{
+	display:table;
+	position:relative;
+	height:100%;
+	width:100%;
+	background-image:url(../img/bg.jpg);
+	background-size:cover;
+}
+
+.text-vertical-center p{
+	font-size:20px;
+}
+
+.btn{
+	background-color:white;
+	color:black;
+}
+
+.About{
+	padding:50px 0px;
+	background-color:#FFD2FF;
+}
+hr.small{max-width:50px;}
+.service{padding:50px 10px;}
+.mid-section{
+	display:table;
+	height:400px;
+	width:100%;
+	color:white;
+	background:url(../img/callout.jpg);
+	background-size:cover;}
+
+.img-portfolio{margin:0px auto;
+               padding-bottom:20px;}
+.img-portfolio:hover{opacity:0.8;}
+	   
+	/* CSS Document */
+
